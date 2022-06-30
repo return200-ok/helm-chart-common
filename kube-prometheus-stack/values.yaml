@@ -696,7 +696,7 @@ grafana:
   ##
   defaultDashboardsTimezone: utc
 
-  adminPassword: prom-operator
+  adminPassword: 6UmieTTzexmVPZv
 
   rbac:
     ## If true, Grafana PSPs will be created

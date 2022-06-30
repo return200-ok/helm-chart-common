@@ -93,7 +93,7 @@ resources:
   #   memory: "512M"
   limits:
     cpu: "1000m"
-    memory: "512M"
+    memory: "2Gi"
 
 initResources: {}
 # limits:
@@ -232,6 +232,7 @@ terminationGracePeriod: 120
 sysctlVmMaxMapCount: 262144
 
 readinessProbe:
+  enable: false
   failureThreshold: 3
   initialDelaySeconds: 10
   periodSeconds: 10
